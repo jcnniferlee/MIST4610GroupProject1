@@ -1,6 +1,6 @@
 # Team 4 MIST 4610 Group Project 1
 
-## TEAM NAME: 
+# TEAM NAME
 21482 Group 4 
 
 
@@ -17,6 +17,10 @@ The scenario at hand is to design and implement a relational database that enabl
 
 # Data Model
 ![Database](Image.png)
+Our data model represents the structure and operations of a large music conglomerate that owns multiple record labels. The RecordLabel entity is the core of the database and stores information about the individual record labels. This has a one-to-many relationship with Contract as record labels can have many contracts with different artists. Contracts stores information about the contract, such as the type and revenue share. 
+
+The Artist entity contains information about the artists, such as their name, date of birth, and debut year. Artists can have many contracts, which is shown by the one-to-many relationship between the two. Artists also has a one-to-many relaionship with awards as they can win multiple awards. The Awards entity contains information about various rewards such as their name, category, and year. 
+
 
 
 
