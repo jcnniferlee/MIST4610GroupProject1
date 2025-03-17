@@ -64,19 +64,29 @@ Overall, our database supports managing multiple record labels and their artists
 ![CONTRACT](https://github.com/user-attachments/assets/9ebbe91e-9e12-4d26-8208-36fe9f0ee889)
 
 
+# QUERIES
+IMAGE OF DATABSE INFO
+### QUERY 1
+### QUERY 2
+### QUERY 3
+### QUERY 4
+### QUERY 5
+### QUERY 6
+### QUERY 7
+### QUERY 8
+### QUERY 9
+### QUERY 10
 
 
 
+# DATABASE INFO
+Database Name: ns_Sp25_21482_Group4\
+
+All queries can be accessed through stored procedures that can be called using
+**CALL TP_Qx ();**\
+Where x is to be replaced by the query number.
 
 
-
-# Queries
-
-
-
-
-
-# Database Info
 
 
 
