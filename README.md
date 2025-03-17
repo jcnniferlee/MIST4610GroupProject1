@@ -5,7 +5,7 @@
 
 
 # Team Members
-- Jennifer Lee [@jcnniferlee](
+- Jennifer Lee [@jcnniferlee](https://github.com/jcnniferlee/MIST4610GroupProject1.git)
 - Connie Wang 
 - Kevin Choi 
 - Kayla Valentine
