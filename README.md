@@ -37,7 +37,10 @@ Overall, our database supports managing multiple record labels and their artists
 
 
 # DATA DICTIONARY
-<p align="center"> Where x = any number
+
+! [database](Image.png)
+
+
 
 
 
