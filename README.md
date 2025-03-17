@@ -16,7 +16,7 @@ The scenario at hand is to design and implement a relational database that enabl
 
 
 # Data Model
-![Database](
+![Database](Image.png)
 
 
 
