@@ -16,7 +16,7 @@ The scenario at hand is to design and implement a relational database that enabl
 
 
 # DATA MODEL
-![Database](Image.png)
+![Image](https://github.com/user-attachments/assets/57884c27-fff6-4e3d-8843-a32be7eaca14)
 Our data model represents the structure and operations of a large music conglomerate that owns multiple record labels. The **RecordLabel** entity is the core of the database and stores information about the individual record labels such as their name, founding year, and CEO. This has a one-to-many relationship with Contract as record labels can have many contracts with different artists. **Contract** defines the agreement between an artist and their corresponding record labels, specifying things like record revenue share and type.
 
 <p align="center"> ────୨ৎ────
