@@ -38,7 +38,30 @@ Overall, our database supports managing multiple record labels and their artists
 
 # DATA DICTIONARY
 
-! [database](Image.png)
+### ARTIST TABLE
+![ARTIST](https://github.com/user-attachments/assets/fcb66825-90ec-44f2-b01e-54da453cb93f)
+### ALBUM TABLE
+![ALBUM](https://github.com/user-attachments/assets/82f22448-a616-4727-8fa8-e596d6639e74)
+### STREAMING DATA TABLE
+![STREAMING DATA](https://github.com/user-attachments/assets/abc4302b-2ec3-467f-a88b-017173ca2c75)
+### SONG TABLE
+![SONG](https://github.com/user-attachments/assets/2cea2e21-d3ec-4992-8c9a-c2175b3aa294)
+### AWARDS TABLE
+![AWARDS](https://github.com/user-attachments/assets/c77345b6-51dd-48fb-a47a-891e01c0be71)
+### COLLABORATIONS TABLE
+![COLLABORATIONS](https://github.com/user-attachments/assets/7e4ed45a-f1e5-44f0-a392-9669ff86c3da)
+### CONCERT TABLE
+![CONCERT](https://github.com/user-attachments/assets/c287cc60-b1b1-4185-bb79-20255b297055)
+### TICKET TABLE
+![TICKET](https://github.com/user-attachments/assets/2557bc6d-e278-4215-a836-39e64241cea0)
+### VENUE TABLE
+![VENUE](https://github.com/user-attachments/assets/c152deb0-97e7-480e-865c-fdb96a803b26)
+### ROYALTY TABLE
+![ROYALTY](https://github.com/user-attachments/assets/5bcb78fe-2221-4e78-964e-a580c5f86b13)
+### RECORD LABEL TABLE
+![RECORDLABEL](https://github.com/user-attachments/assets/92f698a2-4f70-4eac-9e8d-ffaf8cee7f2d)
+### CONTRACT TABLE
+![CONTRACT](https://github.com/user-attachments/assets/9ebbe91e-9e12-4d26-8208-36fe9f0ee889)
 
 
 
