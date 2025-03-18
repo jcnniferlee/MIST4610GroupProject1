@@ -65,22 +65,73 @@ Overall, our database supports managing multiple record labels and their artists
 
 
 # QUERIES
-IMAGE OF DATABSE INFO
+![DATABASE](https://github.com/user-attachments/assets/5b127818-bbb3-4851-9639-c726aeaca35d)
+
 ### QUERY 1
+Find artists whose concert and streaming revenue combined exceeds $200,000. 
+![QUERY 1](https://github.com/user-attachments/assets/8f909940-4f4f-44ba-b833-f1cb80afb224)
+- For a record label executive or artist manager, understanding which artists generate the most revenue from both live performances and digital streaming is crucial for strategic decision-making. Managers can prioritize high-revenue artists for increased promotional budgets, exclusive collaborations, or extended concert tours. If an artist is exceeding revenue expectations, the label may extend contracts, negotiate higher revenue splits, or provide incentives for further projects. 
+
 ### QUERY 2
+Find songs that have more streams than their album's average.
+![QUERY 2](https://github.com/user-attachments/assets/b057c159-8a92-4049-b96f-a024ea82fca2)
+
+- For record label executives, artist managers, and marketing teams, understanding which songs are outperforming their album's average streaming count is critical for strategic decision making and promotional planning. This query identifies standout tracks that are resonating with audiences more than other songs on the same album, allowing labels to focus their efforts on maximizing engagement and revenue from these tracks. If specific songs are outperforming their album averages, labels can increase marketing efforts to increase revenue.  
+
 ### QUERY 3
+Find record labels that manage artists from at least 3 different genres.
+![QUERY 3](https://github.com/user-attachments/assets/dffc9cbe-6546-4a3a-864d-1424129cb652)
+
+- Understanding which labels diversify their artist rosters across multiple genres is crucial for strategic planning, risk management, and market positioning. This query helps identify record labels with broad genre representation, allowing for better decision making regarding things like investments, collaborations, and audience targeting. Labels managing artists across multiple genres can also tap into different fan bases, increasing overall exposure. 
+
 ### QUERY 4
+Find the venues that have hosted the most concerts.
+![QUERY 4](https://github.com/user-attachments/assets/a1a8ad08-3e7f-45bb-90d8-b6be66e32682)
+
+- For record label executives, knowing which venues have hosted the most concerts is crucial for strategic tour planning, artist bookings, and revenue forecasting. Higher frequency venues indicate strong demand and reliability for hosting concerts and managers can prioritize these venues for future tour dates, ensuring maximum attendance. 
+
 ### QUERY 5
+Find the total number of concerts and the average ticket price for each artist. 
+![QUERY 5](https://github.com/user-attachments/assets/07eeca1b-9aa4-424a-b5fc-966af2a0bbf3)
+
+- For record label executives, tour managers, and event coordinators, understanding the number of concerts an artist has performed and their average ticket price is essential for tour planning, revenue forecasting, and pricing strategy optimization. The total number of concerts an artist has performed is a strong indicator of fan engagement and touring success.
+Artists with high concert numbers may have a dedicated live audience, suggesting strong ticket sales potential. The average ticket price per artist helps determine whether an artist is undervalued or overpriced in the market, meaning that if an artist’s ticket prices are too low compared to their demand, managers may increase pricing for future concerts. If prices are too high and concert attendance is low, adjustments can be made to improve affordability and accessibility.
+
 ### QUERY 6
+List the top 3 most popular songs by stream count and their associated artist names. 
+![QUERY 6](https://github.com/user-attachments/assets/ae0883b3-6b8d-4a5c-b081-a4213d1e4b24)
+
+- For record label executives, streaming platform analysts, and artist managers, identifying the top three most streamed songs is critical for marketing strategies, revenue optimization, and future investment decisions. This query helps pinpoint which songs are performing exceptionally well, allowing managers to focus their promotional efforts on high-engagement tracks to maximize revenue and exposure. The top-performing songs indicate what is resonating most with listeners. Managers can increase marketing efforts for these songs through social media campaigns, influencer partnerships, and digital ads.
+
+
 ### QUERY 7
+List which collaborations generate the highest streaming revenue across all platforms
+![QUERY 7](https://github.com/user-attachments/assets/1125d8c6-ea20-4fcc-9f01-642232705259)
+
+- For record label executives, A&R teams, streaming platform analysts, and artist managers, understanding which collaborations generate the highest streaming revenue is crucial for strategic decision-making in artist pairings, marketing investments, and contract negotiations. If a specific artist pairing consistently generates high streaming revenue, labels can prioritize similar collaborations in future projects. Managers can strategically match artists who have strong synergy and cross-audience appeal to maximize streaming potential. Analyzing collaboration success rates across genres can also guide artist development and talent scouting strategies.
+
 ### QUERY 8
+Find artists with high streaming revenue and calculate how much of that revenue is owed to the record label based on the contract. 
+![QUERY 8](https://github.com/user-attachments/assets/2e5c4466-82c2-458d-a308-d43c294ab1e4)
+
+- For record label executives, finance teams, and artist managers, understanding how much revenue an artist generates from streaming and how much of that revenue belongs to the record label is essential for financial planning, contract enforcement, and profit optimization. By identifying artists with high streaming revenue, record labels can measure which artists are the most profitable. This allows executives to determine whether investments in marketing, production, and promotions are yielding strong returns. If an artist is exceeding streaming expectations, the label may consider renegotiating their contract to secure a more favorable revenue split. Conversely, if an artist is underperforming relative to their contract terms, the label may reconsider their investment strategy.
+
 ### QUERY 9
+List artists with the total amount of songs they have only if they have more than the average amount of songs across all artists.
+![QUERY 9](https://github.com/user-attachments/assets/ff98e3a5-d8e9-4d0a-9e26-2b7a66f419ce)
+
+- For record label executives, A&R teams, and music streaming analysts, identifying artists with a higher-than-average number of songs is valuable for understanding productivity levels, content output strategies, and revenue potential. Artists who release more songs than the average are typically more active in the industry. Labels can prioritize these artists for long-term contracts and additional project funding. More songs also mean more opportunities for streaming income, as each track contributes to overall streaming numbers.
+
 ### QUERY 10
+List the total revenue from ticket sales for each concert and only include concerts where the total revenue is greater than the average ticket price across all concerts. 
+![QUERY 10](https://github.com/user-attachments/assets/93458cba-5455-42a6-810b-172e1b287833)
+
+- For record label executives, tour managers, event coordinators, and financial analysts, identifying concerts that generate above-average revenue from ticket sales is crucial for strategic tour planning, pricing optimization, and financial forecasting. Concerts with above-average ticket revenue are strong indicators of high demand, effective pricing strategies, and successful marketing efforts. These concerts can be used as a model for future event planning. By comparing total ticket revenue to the average ticket price, managers can determine whether higher-priced tickets contribute to profitability. If higher ticket prices correlate with increased revenue, pricing models can be adjusted for future concerts and tours.
 
 
 
 # DATABASE INFO
-Database Name: ns_Sp25_21482_Group4\
+Database Name: ns_Sp25_21482_Group4
 
 All queries can be accessed through stored procedures that can be called using
 **CALL TP_Qx ();**\
